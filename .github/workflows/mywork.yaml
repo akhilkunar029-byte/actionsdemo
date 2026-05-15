@@ -11,5 +11,5 @@ jobs:
       - name:  checkout code
         uses: actions/checkout@v6
       - name: using composite action
-        uses: ./.github/actions/composite-action/
+        uses: ./.github/actions/composite-action/mywork.yaml
     
