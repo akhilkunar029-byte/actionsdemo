@@ -2,7 +2,7 @@ name: My Composite Action
 description: A reusable composite action that prints a message.
 
 runs:
-  using: "composite"
+  using: composite
   steps:
     - name: Print a message
       shell: bash
